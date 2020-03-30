@@ -1,0 +1,41 @@
+# compilation and distribution
+__pycache__
+_ext
+*.pyc
+*.so
+maskrcnn_benchmark.egg-info/
+build/
+dist/
+
+# pytorch/python/numpy formats
+*.pth
+*.pkl
+*.npy
+
+# ipython/jupyter notebooks
+*.ipynb
+**/.ipynb_checkpoints/
+
+# Editor temporaries
+*.swn
+*.swo
+*.swp
+*~
+
+# Pycharm editor settings
+.idea
+
+# project dirs
+/log
+/datasets
+/models
+/checkpoints
+/demo/results
+/run
+/output
+/backuplib
+/.vscode
+/archived
+# /grow_model
+train_files/hpc_train/*.out
+当务之急.md
